@@ -1,3 +1,12 @@
+/*assignes the body tag to whatever this code contains within the brackets*/
 body {
     background-color:lightblue
+}
+/* assignes the button tag to whatever changes within the brackets*/
+.button{
+    background-color: white;
+    width: 100px;
+    height: 30px;
+    border-radius: 12px;
+    border-color: lightblue;
 }
