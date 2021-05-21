@@ -4,8 +4,11 @@
 Wk1 assignment, Launching your UAT Space Program HTML Document-->
     <html>
 <head>
+    <!--this calls to the javaScript code-->
     <script src="code.js"></script>
+    <!--this calls to the CSS code-->
     <link rel="stylesheet" href="style.css">
+    <!--title of website page-->
 <title>
     Mr.victor UATspace Page
 </title>
@@ -16,7 +19,9 @@ Wk1 assignment, Launching your UAT Space Program HTML Document-->
 </head>
 
 <body>
+    <!-- this calls to an image that is in the same folder as the file-->
 <img src="UATspaceLogo-1.jpg">
+<!--header of the website-->
 <h1>
     UATSpacepage
 </h1>
@@ -27,14 +32,27 @@ Wk1 assignment, Launching your UAT Space Program HTML Document-->
 
 </script>
 
-
+<!--adds a paragraph portion to the page-->
 <p>
     this is a test of the paragraph tags
 </p>
+<!--adds space to items displayed on the page-->
 <br>
-<div id="countdownStatus"></div>
+<!--uses Div tag to identify unique code in the file-->
+<div id="countdownStatus">count down status</div>
 <br>
-<button onclick="countdownTimer();">Start</button>
-<button>stop</button>
+<!-- button tag is used to identify a button that is displayed and interactable on the webpage-->
+<button onclick="countdownTimer();" class="button">Start</button>
+<!-- the class tag is used to apply certain changes to everything that has the tag to be altered as well-->
+<button class="button">stop</button>
+<br>
+<br>
+<!-- the id tag is calling to the document.getElementById that is within its quoatation in the JS code-->
+<div id="die1Res">Die 1 status</div>
+<div id="die2Res">Die 2 status</div>
+<div id="diceSum">Die Sum Status</div>
+<div id="crapsStatus">craps game Status</div>
+<button onclick="playCraps()" class="button">Play Craps</button>
+
 </body>
     </html>
